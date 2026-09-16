@@ -1,0 +1,2 @@
+"""Original candidate family for multiplicity control."""
+GENES='TAP1 GBP1 CXCL9 IRF1 CXCL11 CXCL10 IDO1 STAT1 SLCO1B1 KL FADD DNAJC14 PTPN1 TRIP4 MMS19 CBL NCOR1 ACTB'.split()

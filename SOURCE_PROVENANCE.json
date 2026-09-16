@@ -1,0 +1,224 @@
+{
+  "archive": "route_a_core_checks_evidence_2026-09-16_v2.zip",
+  "archive_sha256": "7c3e033e5e913706250fdebcdfe1579c15a079ee4a0b775072c00fc3867d999e",
+  "new_experiments_run": false,
+  "files": [
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/candidate_role_lift.py",
+      "source_sha256": "6e16d27e19e1041ee3a7cf5a4e7e5f7e9f18638be6ce5e8a37b37916153fed03",
+      "release_path": "src/tacb_bci/route_ab/candidate_role_lift.py",
+      "release_sha256": "6e16d27e19e1041ee3a7cf5a4e7e5f7e9f18638be6ce5e8a37b37916153fed03",
+      "change": "Unchanged archive source."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/score_surface_roles.py",
+      "source_sha256": "60130eeb71c1662cf8869f3bb442f58351b801785f9897127a9326a079635ce7",
+      "release_path": "src/tacb_bci/route_ab/score_surface_roles.py",
+      "release_sha256": "60130eeb71c1662cf8869f3bb442f58351b801785f9897127a9326a079635ce7",
+      "change": "Unchanged archive source."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/roles.py",
+      "source_sha256": "b78fc5f56e4c7b226d99ac16546d224695e695f8644e345b396ac84b43c6d55c",
+      "release_path": "src/tacb_bci/route_ab/roles.py",
+      "release_sha256": "b78fc5f56e4c7b226d99ac16546d224695e695f8644e345b396ac84b43c6d55c",
+      "change": "Unchanged archive source."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/conditional_benefit.py",
+      "source_sha256": "fcb34f22de9369009a3bb917451acb6f3e52dca54d4a8f844b527e3a035d1232",
+      "release_path": "src/tacb_bci/route_ab/conditional_benefit.py",
+      "release_sha256": "fcb34f22de9369009a3bb917451acb6f3e52dca54d4a8f844b527e3a035d1232",
+      "change": "Unchanged archive source."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/ratio_inference.py",
+      "source_sha256": "fcd0fc2fe81a475d9a28d7247e4fbcd47aeb8c2afff7c2de89ffc5fe73d2f231",
+      "release_path": "src/tacb_bci/route_ab/ratio_inference.py",
+      "release_sha256": "fcd0fc2fe81a475d9a28d7247e4fbcd47aeb8c2afff7c2de89ffc5fe73d2f231",
+      "change": "Unchanged archive source."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/core_checks.py",
+      "source_sha256": "192b3db187ba865ed269f33f64f3e425e6c46cf2d46a488cd5b660ab7ba6409f",
+      "release_path": "src/tacb_bci/route_ab/core_checks.py",
+      "release_sha256": "192b3db187ba865ed269f33f64f3e425e6c46cf2d46a488cd5b660ab7ba6409f",
+      "change": "Unchanged archive source."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/native.py",
+      "source_sha256": "ddc0fc0f5ae7c4212978d22a812d82751f366e45d98e2869dc6b48c60c67963e",
+      "release_path": "src/tacb_bci/route_ab/native.py",
+      "release_sha256": "58debca664f136b6a9fbf3ec2a527116ead454f70338d195f644d64675d28f99",
+      "change": "Extract unchanged nuisance definitions; omit unused native direct-effect learner; relocate backend."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/continuous.py",
+      "source_sha256": "5bbd805ab5b103e2c4101beb8d7752e1e8ecd5ee30d4069379bbf83775d082a6",
+      "release_path": "src/tacb_bci/route_ab/continuous.py",
+      "release_sha256": "7a491ead1db1a5797babc9c81d6ec6ecfda28ab12d0ba99ff0518cb11bd61957",
+      "change": "Extract two unchanged definitions; omit unused continuous-exposure learners."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/causal_ifn/orthogonal_score.py",
+      "source_sha256": "ce6bbc809e3acddedf215e439570b65e75199f7d9403e4bd855c5d15ef379b1d",
+      "release_path": "src/tacb_bci/causal_ifn/orthogonal_score.py",
+      "release_sha256": "a7d3fe5c48aafc50d3366f6645f5f8a6bf9482fe8980640b727684197beceacb",
+      "change": "Extract unchanged AIPW definition, excluding unrelated prediction imports."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/run_route_a_common_controls.py",
+      "source_sha256": "ec86020cbd4ced6dd7375fa332bd26ba2312dc780d96717f5a726aff8aada866",
+      "release_path": "src/tacb_bci/route_ab/nuisance.py",
+      "release_sha256": "6e8627ccc1a8ea543869d5f725dc990e98a56416a63ec2e7dcb6d183bcbb48a6",
+      "change": "Extract unchanged nuisance-selection function; omit previous clinical launch script."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/provenance.py",
+      "source_sha256": "5ded08c275ddfbc9f41cfd30b54dbe020b79c4f819430a54413e088b2688949b",
+      "release_path": "src/tacb_bci/provenance.py",
+      "release_sha256": "a10211d95519d9ea20edfe246aa42f0d8dce085503dc1765270d26ae48123045",
+      "change": "Extract unchanged digest and immutable-write helpers."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/qualify_route_a_calibrated_marker.py",
+      "source_sha256": "fc2bc64131cd1327e69f3b6ce2285e6c5aad8a306e7785d1831645c67a2fc9f5",
+      "release_path": "src/tacb_bci/route_ab/constants.py",
+      "release_sha256": "0274328119d4c6c8392324294b6c9d6159b8056bdc97709970da977c5dce3e64",
+      "change": "Extract only the original 18-member family constant."
+    },
+    {
+      "archive_member": "source_snapshot/upstream/Causal-Uplift-Model_993ed47/graph_roles.py",
+      "source_sha256": "c3b631f7273a6dfadc1c96f158bea3f41bb2753ccd5f51a5cccb1487669d0b56",
+      "release_path": "src/tacb_bci/_vendor/graph_roles.py",
+      "release_sha256": "c3b631f7273a6dfadc1c96f158bea3f41bb2753ccd5f51a5cccb1487669d0b56",
+      "change": "Byte-identical vendored dependency subset; backend commit 993ed47266539545b7eb14249f3e3ccfd75d1f25."
+    },
+    {
+      "archive_member": "source_snapshot/upstream/Causal-Uplift-Model_993ed47/tlcd/__init__.py",
+      "source_sha256": "7a2f568028947c8bdb8fa782470887664e210cabe0bfe92e5d736c31c2d9453b",
+      "release_path": "src/tacb_bci/_vendor/tlcd/__init__.py",
+      "release_sha256": "7a2f568028947c8bdb8fa782470887664e210cabe0bfe92e5d736c31c2d9453b",
+      "change": "Byte-identical vendored dependency subset; backend commit 993ed47266539545b7eb14249f3e3ccfd75d1f25."
+    },
+    {
+      "archive_member": "source_snapshot/upstream/Causal-Uplift-Model_993ed47/tlcd/tlcd_runner.py",
+      "source_sha256": "1d3dcb6f221655696f1871a6d02afaa63fb068022a1c641ff8408d8f1f7c14ac",
+      "release_path": "src/tacb_bci/_vendor/tlcd/tlcd_runner.py",
+      "release_sha256": "1d3dcb6f221655696f1871a6d02afaa63fb068022a1c641ff8408d8f1f7c14ac",
+      "change": "Byte-identical vendored dependency subset; backend commit 993ed47266539545b7eb14249f3e3ccfd75d1f25."
+    },
+    {
+      "archive_member": "source_snapshot/upstream/Causal-Uplift-Model_993ed47/tlcd/direction_methods.py",
+      "source_sha256": "b4e9036102ee13451ffb6749ebe16bea0e5fcca034f79b8b62b0d79a29c3da65",
+      "release_path": "src/tacb_bci/_vendor/tlcd/direction_methods.py",
+      "release_sha256": "b4e9036102ee13451ffb6749ebe16bea0e5fcca034f79b8b62b0d79a29c3da65",
+      "change": "Byte-identical vendored dependency subset; backend commit 993ed47266539545b7eb14249f3e3ccfd75d1f25."
+    },
+    {
+      "archive_member": "source_snapshot/src/tacb_bci/route_ab/enhancement.py",
+      "source_sha256": "ef2fb72e30e96106c2cfe9e2061db118c2fa92812b11da2153a803349c436489",
+      "release_path": "src/tacb_bci/route_ab/enhancement.py",
+      "release_sha256": "33f31cce166d28a1170931eac096ccb705f9587a8f8923683901bef630983c10",
+      "change": "Keep final M1/M3 and restricted-Q interface only; remove unused M0/M4/M5/mismatch branches; localize nuisance import. Retain shared F2 DGP function unchanged."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/run_route_a_core_calibration.py",
+      "source_sha256": "97bb96d2b42874fbf4d1d984dc85db98fb7d1161ce4dd912eb4713561a721b2b",
+      "release_path": "analysis/run_calibration.py",
+      "release_sha256": "541f17dca72bfbb204984275934775685962fc3f2d72ab9156d46d82dea91ef4",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/run_route_a_core_q_repair.py",
+      "source_sha256": "8b8a8108c991de1dd1dd9734484137dfbb6db5b8091c3dbb6bb88dc132f102af",
+      "release_path": "analysis/run_q_sensitivity.py",
+      "release_sha256": "0d07a2fcfab0190bbb0a30aaeeee618426ff07ce8ede3c3f47e3beabcfc84217",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/run_route_a_core_clinical.py",
+      "source_sha256": "b2ae7f3b1ce2f9fb7d282311384427f61beecfb8da30f862c284ce3d5a1e0dfc",
+      "release_path": "analysis/clinical_stabilization.py",
+      "release_sha256": "8e49a838a240f03b184d23fa4843f27e15c94ceca2df210cb8b27db6a4419747",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/run_route_a_core_clinical_repair.py",
+      "source_sha256": "f2ff5ba35bdeeec684d4943cfa098cd7640bd8f629959f0c76fcb61f45073276",
+      "release_path": "analysis/clinical_q_sensitivity.py",
+      "release_sha256": "01621da1e173df3e41557305186cb56b29bd8935301ab862eee046c0e9615aad",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/summarize_route_a_core_calibration.py",
+      "source_sha256": "95cd7a6fe805d8260b58d748a821bbd8f77b1ae5b8eedcaa26e0f7372a581490",
+      "release_path": "analysis/summarize_calibration.py",
+      "release_sha256": "0b13738a061a19eb2287b3936a3513d6ad2e41b40d20415747eb2dbfbeea3ba2",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/summarize_route_a_core_repair.py",
+      "source_sha256": "01defa2996eb3c4bcd7d8ea75d2732a934108e3d913223d948f7c799a08848bf",
+      "release_path": "analysis/summarize_q_sensitivity.py",
+      "release_sha256": "50c3daefa4cdbe4e7fe05dbd148c5910c6599ef2fd35236f06467f434469c2b6",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/diagnose_route_a_core_components.py",
+      "source_sha256": "e8b64813cd9c680d5ddda19744f14bc2d669992013b78e5cff1bae0faa677522",
+      "release_path": "analysis/nuisance_sensitivity.py",
+      "release_sha256": "b4f64621340b6fff76d7fa003ba0ee76e22ec51b8455e746462af5fe61c2a429",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/plot_route_a_core_checks.py",
+      "source_sha256": "9a092c61ad1229e11256d3d52f918106f9c823c92e726323523ca6bc208d96d6",
+      "release_path": "analysis/plot_main.py",
+      "release_sha256": "e0ea4fb2b5b11db07994b0a1d265f51bd6fcc249dde0f93e5f9799ebd7056851",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/plot_route_a_core_repair.py",
+      "source_sha256": "39b0a58ecf73eec839899cf6d6afc80515c0be3e1a8a78c58d0b290790a3b9ce",
+      "release_path": "analysis/plot_sensitivity.py",
+      "release_sha256": "0ff09188e2e14d1a72b10a2910dcf8b76fe64d79c85dc7eee71ee816666aebe6",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/replay_route_a_core_synthetic.py",
+      "source_sha256": "2cb1f82f53f9675c548148439432ce73939abbbf09b110213abcdf07acc93411",
+      "release_path": "analysis/verify_simulations.py",
+      "release_sha256": "4eae5c547bd7247ff21182f9b623095ec4d55d08cad8011bdef62b26c8481137",
+      "change": "Rename entrypoint/imports; configure external clinical caches; replace historical snapshots; remove recovery-only branch where present. Fitting loops and estimators retained."
+    },
+    {
+      "archive_member": "source_snapshot/scripts/audit_route_a_core_checks.py",
+      "source_sha256": "f59816203bf9ab7acbd7bfd1f13600c1d51154669f02c8e0e776c5598b782f22",
+      "release_path": "analysis/inference_audit.py",
+      "release_sha256": "71b1da583ef4179f406f2aeeb88d507adba66c54ed2c2d3057454808b42956d2",
+      "change": "Extract independent synthetic audit; omit local clinical/manuscript/history dependencies. Not executed during curation."
+    },
+    {
+      "archive_member": "source_snapshot/tests/test_route_a_core_checks.py",
+      "source_sha256": "a812681ebb7f326b50195a111ba0b9e9ce3ccbcd093248f2b2a5d642f03296ce",
+      "release_path": "tests/test_scores_and_calibration.py",
+      "release_sha256": "30c4c4766748265b40bc214336ec1be0ca7a1b0e76579e3fc0a2342eb4839f54",
+      "change": "Archived targeted test; relocate analysis imports only. Not executed during curation."
+    },
+    {
+      "archive_member": "source_snapshot/tests/test_route_ab_ratio_inference.py",
+      "source_sha256": "432f24a4524a724fd4804c56fb22100d0f97f557f483ed64970e011a78d7de16",
+      "release_path": "tests/test_ratio_inference.py",
+      "release_sha256": "432f24a4524a724fd4804c56fb22100d0f97f557f483ed64970e011a78d7de16",
+      "change": "Archived targeted test; relocate analysis imports only. Not executed during curation."
+    },
+    {
+      "archive_member": "source_snapshot/tests/test_route_ab_score_surface_roles.py",
+      "source_sha256": "1b374de54810ce06d72568bfcc27d7fc609822857f2d967cc3601520920a0966",
+      "release_path": "tests/test_score_surface_roles.py",
+      "release_sha256": "1b374de54810ce06d72568bfcc27d7fc609822857f2d967cc3601520920a0966",
+      "change": "Archived targeted test; relocate analysis imports only. Not executed during curation."
+    }
+  ]
+}

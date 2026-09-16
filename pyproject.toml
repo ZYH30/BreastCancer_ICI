@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "breastcancer-ici"
+version = "0.1.0"
+description = "Candidate-role-aware causal benefit biomarker analyses"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy==2.5.2",
+    "pandas==3.0.5",
+    "scipy==1.18.1",
+    "scikit-learn==1.9.0",
+    "statsmodels==0.15.0",
+    "networkx==3.6.1",
+    "lightgbm==4.7.0",
+    "matplotlib==3.11.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tacb_bci*"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "analysis"]
